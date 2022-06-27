@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$74"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13sp"
+                android:textColor="#fff">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Beach is but a short walk away"
+                android:textSize="24sp"
+                android:layout_gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sagittis nulla sit amet lacus congue, non aliquet ex consequat. Donec sed erat nec lorem ultrices porttitor. Etiam posuere tempor leo sed posuere. Mauris in purus urna. Pellentesque at libero vitae diam malesuada porttitor. Maecenas mattis metus sed dolor vulputate euismod. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent consectetur elementum vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus maximus pellentesque justo tincidunt pulvinar. Sed viverra eu est id sagittis. Curabitur lacus quam, auctor et convallis quis, feugiat in nisi. Nulla ullamcorper, risus facilisis scelerisque scelerisque, lectus arcu egestas nulla, ut vestibulum mi enim ut nunc. Mauris vulputate nunc et orci porta facilisis. Duis mollis id magna non vestibulum. Nullam vestibulum pulvinar purus vel consectetur. Proin vulputate purus at iaculis sodales. Morbi mollis lobortis molestie. Maecenas ac placerat ex, non malesuada libero. Duis ac malesuada velit. Nam ut ultricies eros. Mauris justo ante, luctus et iaculis quis, viverra condimentum dui. Nulla condimentum vehicula enim, in dignissim mi. Nam volutpat sem sit amet massa dignissim, ac sollicitudin dui elementum. Vivamus ut vulputate diam, id venenatis nunc. Ut ac massa ut mi fermentum consectetur. Nunc et tortor turpis. Curabitur luctus risus magna, eget pretium quam euismod in. Praesent lacinia commodo lorem sit amet volutpat. In vestibulum tincidunt pharetra. Ut eleifend tempus posuere. Praesent lorem justo, gravida non mi quis, sagittis commodo est. Nam enim magna, elementum eu aliquet eget, finibus id quam. Nam eu porta enim. Curabitur quis risus non mauris finibus laoreet. Vivamus tempus laoreet est. Vivamus lacinia vel purus eu finibus. Vestibulum viverra faucibus blandit. Donec sodales, nisi id luctus congue, nunc felis scelerisque felis, vitae vestibulum elit ante nec dui. Maecenas consectetur augue in massa volutpat tincidunt. Quisque pellentesque gravida felis id elementum. In non tortor nunc. Nam rutrum posuere nisl sit amet posuere. Aliquam semper sem hendrerit sollicitudin sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce mollis turpis non urna vulputate consequat. Sed sem urna, rutrum nec dui a, ornare bibendum elit. Sed euismod dictum dolor nec gravida. Mauris leo augue, sagittis ut lorem at, ornare lacinia nulla. Etiam ac imperdiet magna, ultrices euismod orci. Integer elementum ligula nulla, eu facilisis massa iaculis condimentum. Nam auctor egestas porttitor. Vestibulum tempus aliquam nisi et eleifend."></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:textColor="#ffffff"
+        android:text="Book Now!!!"></Button>
+</LinearLayout>
+
